@@ -1,3 +1,5 @@
+// Developed By Kumaresan.L
+
 #include<iostream.h>
 #include<conio.h>
 int i,limit,sumX,sumY,sumXsq,sumYsq,sumXY,x,y;
