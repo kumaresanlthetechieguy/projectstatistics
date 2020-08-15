@@ -1,3 +1,5 @@
+//Devoloped By Kumaresan.L 
+
 #include<iostream.h>
 #include<conio.h>
 int N[500],x[500],Nx[500],i,limit;
