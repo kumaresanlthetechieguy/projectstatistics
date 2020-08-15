@@ -1,3 +1,5 @@
+// Developed By Kumaresan.L
+
 #include<iostream.h>
 #include<conio.h>
 float l,f1,f2,c,x[500],temp,y[500],f[500],cf[500],med,medf,Z;
