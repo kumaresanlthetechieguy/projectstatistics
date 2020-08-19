@@ -4,10 +4,10 @@
 #include<conio.h>
 int i,limit,sumX,sumY,sumXsq,sumYsq,sumXY,x,y;
 float yminybar,bxy,byx,Xbar,Ybar,X[500],Y[500],XY[500],Xsq[500],Ysq[500];
-class reg
+class reg //developed by KumaresanL
 {
 public:
-void compute()
+void compute() //developed by KumaresanL
 {
 
 
@@ -74,14 +74,14 @@ void compute()
     cout<<"\n\nX on Y";
     x = bxy*(y-Ybar);
     cout<<"  ="<<x;
-}
-};
-void main()
+} //developed by KumaresanL
+}; //developed by KumaresanL
+void main() //developed by KumaresanL
 {
   clrscr();
   reg ob;
   ob.compute();
-}
+} //developed by KumaresanL
 
 
 
