@@ -4,7 +4,7 @@
 #include<conio.h>
 int N[500],x[500],Nx[500],i,limit;
 float Cm,sumN,sumNx;
-class combined_mean
+class combined_mean                 //Developed By Kumaresan L
 {
   public:
   void compute()
@@ -45,10 +45,10 @@ class combined_mean
      cout<<"\n\nCombined Mean (C.M) :- \nsumNx/sumN = "<<Cm;
      getch();
   }
-};
+};                                                           //Developed By Kumaresan L
 void main()
 {
    clrscr();
    combined_mean cm;
    cm.compute();
-}
+}                                                            //Developed By Kumaresan L
