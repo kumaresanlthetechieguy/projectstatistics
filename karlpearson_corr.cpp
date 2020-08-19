@@ -9,7 +9,7 @@ float xy[500],xsq[500],ysq[500],x[500],y[500],X[500],Y[500];
 float sumX,sumY,sumxy,sumxsq,sumysq,div,r,sumxsqrt,sumysqrt,proxysqrt;
 float xbar,ybar;
 
-class kpc_corr
+class kpc_corr   //developed by kumaresanL
 {
   public:
   void compute()
@@ -97,11 +97,11 @@ class kpc_corr
        getch();
 
   }
-};
+}; //developed by kumaresanL
 void main()
 {
   clrscr();
   cout<<"KARL PEARSON COEFFICIENT OF CORRELATION- ";
   kpc_corr ob;
   ob.compute();
-}
+} //developed by kumaresanl
