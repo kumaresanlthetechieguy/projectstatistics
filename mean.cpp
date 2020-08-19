@@ -7,7 +7,7 @@
 int x[500],y[500],i,f[500],fx[500];
 float limit,sumx,sumf,sumfx,xbar,sumfm;
 
-class mean
+class mean        //Developed By KumaresanL
 {
 	public:
 
@@ -44,8 +44,8 @@ class mean
 			cout<<"\n\n";
                         getch();
 
-		}
-		void discrete()
+		} //developed by kumaresanL
+		void discrete()   //developed by kumaresanL
 		{
 			cout<<"\nEnter the limit of X : ";
 			cin>>limit;
@@ -93,8 +93,8 @@ class mean
 			cout<<"\n\n";
                         getch();
 
-     	}
-		void continuous()
+     	} //developed by kumaresanL
+		void continuous() //developed by kumaresanL
 		{
 			cout<<"\nEnter the limit of X : ";
 			cin>>limit;
@@ -133,10 +133,10 @@ class mean
 			cout<<"\nMean = "<<xbar;
 			cout<<"\n\n";
                         getch();
-		}
+		} //developed by kumaresanL
 
 };
-void main()
+void main() //developed by kumaresanL
 {
         clrscr();
 	mean ob;
@@ -153,4 +153,4 @@ void main()
 		default : cout<<"Option Invalid !";
 	}
 
-}
+} //developed By kumaresanL
