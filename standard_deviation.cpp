@@ -7,10 +7,10 @@ int limit,i,x[500],y[500],f[500],fm[500],sumn,sumf,fx[500];
 float fmminxbsq[500],mminxb[500],mminxbsq[500],mid[500],cv;
 float sd,div,xbar,sumx,sumfx,sumfm,sumxminxbsq,sumfxminxbsq,sumfmminxbsq;
 float xminxbsq[500],xminxb[500],fxminxbsq[500];
-class SD
+class SD  //developed by KumaresanL
 {
     public:
-    void individual()
+    void individual()  //developed by KumaresanL
     {
        cout<<"\nEnter no of observations : ";
        cin>>limit;
@@ -54,8 +54,8 @@ class SD
        cout<<"\nS.D = sqrt("<<sumxminxbsq<<"/"<<limit<<")";
        cout<<"\n\nS.D = "<<sd;
        getch();
-    }
-    void discrete()
+    }  //developed by KumaresanL
+    void discrete()  //developed by KumaresanL
     {
                         cout<<"\nEnter the no of observation : ";
 			cin>>limit;
@@ -127,8 +127,8 @@ class SD
                         cout<<"\n"<<'\t'<<"C.V = "<<cv;
 
                      getch();
-    }
-    void continuous()
+    }  //developed by KumaresanL
+    void continuous()  //developed by KumaresanL
     {
                         cout<<"\nEnter the no of observation  : ";
 			cin>>limit;
@@ -206,9 +206,9 @@ class SD
 
 
       getch();
-    }
-};
-void main()
+    }  //developed by KumaresanL
+};  //developed by KumaresanL
+void main()  //developed by KumaresanL
 {
    clrscr();
    SD ob;
@@ -224,7 +224,7 @@ void main()
 		default : cout<<"Option Invalid !";
 	}
 
-}
+}  //developed by KumaresanL
 
 
 
