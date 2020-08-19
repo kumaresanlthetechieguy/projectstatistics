@@ -5,10 +5,10 @@
 float x[500],y[500],f[500],temp,m,med,cf[500],sumf,M;
 int i,j,limit,l,pcf,c;
 
-class median
+class median         //developed by KumaresanL
 {
 	public:
-	        void individual()
+	        void individual() //developed by KumaresanL
 		{
 			cout<<"Enter the limit of x : ";
 			cin>>limit;
@@ -66,8 +66,8 @@ class median
 	    cout<<"\n\nMedian = "<<m;
 	    cout<<"\n\n";
             getch();
-	  }
-          void discrete()
+	  }  //developed by kumaresanL
+          void discrete()  //developed by kumaresanL
           {
              	        cout<<"Enter the limit of x : ";
 			cin>>limit;
@@ -134,8 +134,8 @@ class median
                 }
 
                         getch();
-          }
-          void continuous()
+          } //developed by KumaresanL
+          void continuous() //developed by kumaresanL
           {
 
                         cout<<"\nEnter the limit of X : ";
@@ -197,12 +197,12 @@ class median
                          cout<<"\n\nMedian = "<<M;
                          break;
                      }
-                }
+                } //developed by kumaresanL
 
                   getch();
           }
-};
-void main()
+}; //developed by KumaresanL
+void main() //developed by kumaresanL
 {
         clrscr();
 	median ob;
@@ -220,4 +220,4 @@ void main()
 
         }
 
-}
+} //developed by kumaresanL
