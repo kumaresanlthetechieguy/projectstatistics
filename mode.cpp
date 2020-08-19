@@ -6,10 +6,10 @@ float l,f1,f2,c,x[500],temp,y[500],f[500],cf[500],med,medf,Z;
 int i,j,limit,sumf;
 int ft[500],st[500],tt[500],frt[500],fvt[500];
 
-class mode
+class mode   //developed by kumaresanL
 {
 public:
-void individual()
+void individual() //developed by kumaresanL
 {
 
             cout<<"Enter the limit of x : ";
@@ -53,8 +53,8 @@ void individual()
                   }
                 }
      getch();
-}
-void discrete()
+} //developed by KumaresanL
+void discrete() //developed by KumaresanL
 {
                         cout<<"Enter the limit of x : ";
 			cin>>limit;
@@ -232,8 +232,8 @@ void discrete()
 
 
                 getch();
-}
-void continuous()
+} //developed by KumaresanL
+void continuous() //developed by KumaresanL
 {
 
                         cout<<"\nEnter the limit of X : ";
@@ -328,9 +328,9 @@ void continuous()
 
 
                 getch();
-}
-};
-void main()
+} //developed by KumaresanL
+}; //developed by KumaresanL
+void main() //developed by KumaresanL
 {
        clrscr();
 	mode ob;
@@ -348,7 +348,7 @@ void main()
 
         }
 
-}
+} //developed by KumaresanL
 
 
 
